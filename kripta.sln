@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PrimalityTestsDemo", "kripta\PrimalityTestsDemo.csproj", "{5D17C07B-9C7E-45CE-9260-26252DD2D222}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Legendre", "Legendre\Legendre.csproj", "{A3D26ED5-F5B2-4668-AF4C-9B7EAEC34F1B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChineseRemainderTheorem", "ChineseRemainderTheorem\ChineseRemainderTheorem.csproj", "{AC01E446-A115-4726-8B02-7DA74BA0B167}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ErythropheneSieveDemo", "ErythropheneSieve\ErythropheneSieveDemo.csproj", "{2B58263F-47D5-437F-935D-D59E8E5F6056}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZhegalkinPolynomialDemo", "ZhegalkinPolynomial\ZhegalkinPolynomialDemo.csproj", "{E2970E73-68E2-452D-BAB9-53A99A1D0F3C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5D17C07B-9C7E-45CE-9260-26252DD2D222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D17C07B-9C7E-45CE-9260-26252DD2D222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D17C07B-9C7E-45CE-9260-26252DD2D222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D17C07B-9C7E-45CE-9260-26252DD2D222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A3D26ED5-F5B2-4668-AF4C-9B7EAEC34F1B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A3D26ED5-F5B2-4668-AF4C-9B7EAEC34F1B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A3D26ED5-F5B2-4668-AF4C-9B7EAEC34F1B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A3D26ED5-F5B2-4668-AF4C-9B7EAEC34F1B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AC01E446-A115-4726-8B02-7DA74BA0B167}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AC01E446-A115-4726-8B02-7DA74BA0B167}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AC01E446-A115-4726-8B02-7DA74BA0B167}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AC01E446-A115-4726-8B02-7DA74BA0B167}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2B58263F-47D5-437F-935D-D59E8E5F6056}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2B58263F-47D5-437F-935D-D59E8E5F6056}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2B58263F-47D5-437F-935D-D59E8E5F6056}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2B58263F-47D5-437F-935D-D59E8E5F6056}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2970E73-68E2-452D-BAB9-53A99A1D0F3C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2970E73-68E2-452D-BAB9-53A99A1D0F3C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2970E73-68E2-452D-BAB9-53A99A1D0F3C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2970E73-68E2-452D-BAB9-53A99A1D0F3C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

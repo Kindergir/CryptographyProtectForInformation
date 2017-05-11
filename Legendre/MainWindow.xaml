@@ -1,0 +1,19 @@
+﻿<Window x:Class="Legendre.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Legendre"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Label x:Name="label" Content="A:" FontSize="16" HorizontalAlignment="Left" Margin="53,92,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label1" Content="P:" FontSize="16" HorizontalAlignment="Left" Margin="53,149,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="Symbol Legendre:" FontSize="16" HorizontalAlignment="Left" Margin="53,209,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbA" FontSize="16" HorizontalAlignment="Left" Height="23" Margin="119,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbP" FontSize="16" HorizontalAlignment="Left" Height="23" Margin="119,149,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <TextBox x:Name="tbRes" FontSize="16" HorizontalAlignment="Left" Height="23" Margin="216,209,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="120"/>
+        <Button x:Name="btnCalculate" Content="Calculate" FontSize="16" Click="BtnCalculate_OnClick" HorizontalAlignment="Left" Margin="344,92,0,0" VerticalAlignment="Top" Width="75"/>
+
+    </Grid>
+</Window>

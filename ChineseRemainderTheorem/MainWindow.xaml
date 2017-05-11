@@ -1,0 +1,19 @@
+﻿<Window x:Class="ChineseRemainderTheorem.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ChineseRemainderTheorem"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <TextBox x:Name="tbResult" FontSize="16" HorizontalAlignment="Left" Height="45" Margin="32,213,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="453"/>
+        <Button x:Name="btnCalc" Content="Calculate" FontSize="16" Click="BtnCalc_OnClick" HorizontalAlignment="Left" Margin="410,163,0,0" VerticalAlignment="Top" Width="75"/>
+        <Label x:Name="label1" Content="a: " FontSize="16" HorizontalAlignment="Left" Margin="10,56,0,0" VerticalAlignment="Top"/>
+        <Label x:Name="label2" Content="r:" FontSize="16" HorizontalAlignment="Left" Margin="10,92,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="tbR" FontSize="16" HorizontalAlignment="Left" Height="31" Margin="41,92,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="444"/>
+        <TextBox x:Name="tbA" FontSize="16" HorizontalAlignment="Left" Height="31" Margin="41,56,0,0" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Width="444"/>
+        <Label x:Name="label3" Content="X" FontSize="16" HorizontalAlignment="Left" Margin="32,163,0,0" VerticalAlignment="Top"/>
+
+    </Grid>
+</Window>
